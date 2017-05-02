@@ -2,7 +2,9 @@ microsoft-translator
 =======================
 ```
 from microsoft_translator import translator
+
 trans = translator.translator(credential code)
+
 print (trans.translate("how are you", "en", "fr"))
 ```
 
